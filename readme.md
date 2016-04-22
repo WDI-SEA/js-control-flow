@@ -6,6 +6,7 @@
   * It may also be beneficial to copy/paste any data structures provided
 * Write JavaScript code to obtain the data prompted by each question
 
+---
 
 ###reverse.js
 Write a program that will take a hardcoded string, and console log the reversed version of it.
@@ -18,12 +19,16 @@ Write a program that will take a hardcoded string, and console log the reversed 
 var inputString = "building"
 ```
 
+---
+
 ###filterLongWords.js
 Write a program that will take an array of words. Using a variable called `maxLength`, push words that are less than the `maxLength` into a new array, and `console.log` the value of `maxLength`.
 
 **Requirements**
 * Your array of words should be stored in a variable, which can be named whatever you like
 * `maxLength` should be a positive number
+
+---
 
 ###grade.js
 Write a program that will print the letter grade, given a variable with a test score. Display either "A", "B", "C", "D", or "F", for an score that is an integer between 0 and 100.
@@ -32,6 +37,8 @@ Write a program that will print the letter grade, given a variable with a test s
 * Your program should have a variable to store the letter grade (an integer between 0 and 100)
 * For the letter grades, you may use whatever grading scale you like
 * You must use a switch statement (hint, you may need to review and think about how the `switch` statement works)
+
+---
 
 ###pluralizer.js
 Write a program that takes an input like...
@@ -44,6 +51,8 @@ and output the pluralized form of the word, depending on what `count` is. For ex
 
 **Requirements**
 * Your program should pluralize the word based on an integer (`count`)
+
+---
 
 ##tempConvert.js
 Write a program that converts a temperature from Fahrenheit to Celsius.
