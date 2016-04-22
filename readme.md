@@ -54,7 +54,7 @@ and output the pluralized form of the word, depending on what `count` is. For ex
 
 ---
 
-##tempConvert.js
+###tempConvert.js
 Write a program that converts a temperature from Fahrenheit to Celsius.
 
 **Requirements**
