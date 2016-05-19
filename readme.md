@@ -3,7 +3,7 @@
 ##Getting Started
 * Fork and clone this repository
 * Run `npm install` to install dependencies
-* Create a separate file for each exercise. This will make it easier to keep track of solutions
+* Use a separate file for each exercise. This will make it easier to keep track of solutions
   * It may also be beneficial to copy/paste any data structures provided
 * Write JavaScript code to obtain the data prompted by each question
 * Run `npm run lint:js` to style check your code
