@@ -6,7 +6,7 @@
 * Use a separate file for each exercise. This will make it easier to keep track of solutions
   * It may also be beneficial to copy/paste any data structures provided
 * Write JavaScript code to obtain the data prompted by each question
-* Run each file by typing `node src/js/nameOfFile.js`
+* Run each file by typing `node js/nameOfFile.js`
 * Run `npm run lint:js` to style check your code
 
 ---
@@ -19,7 +19,7 @@ Write a program that will take a hardcoded string, and console log the reversed 
 * You may use the string below
 
 ```js
-var inputString = "building"
+var inputString = 'building';
 ```
 
 ---
@@ -47,8 +47,8 @@ Write a program that will print the letter grade, given a variable with a test s
 Write a program that takes an input like...
 
 ```js
-var thing = "cat"
-var count = "5"
+var thing = 'cat';
+var count = '5';
 ```
 and output the pluralized form of the word, depending on what `count` is. For example, "5 cats" or "1 dog".
 
