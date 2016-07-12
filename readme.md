@@ -63,3 +63,9 @@ Write a program that converts a temperature from Fahrenheit to Celsius.
 **Requirements**
 * Your program should take an integer (in Fahrenheit) and convert the temperature to Celsius.
 * The output of the program should read: "X degrees Fahrenheit is Y degrees Celsius"
+
+---
+
+## Licensing
+1. All content is licensed under a CC-BY-NC-SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
