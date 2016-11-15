@@ -11,12 +11,12 @@
 var wordify = ["there", "is", "no", "place", "like", "home"];
 var maxLength = 3;
 
-function limitedWords(wordArry) {
+function filterLongWords(wordArry) {
   var maxedWords = [];
 
   for (var i = 0; i < maxLength; i++) {
     maxedWords.push(wordArry[i]);
   }
-  console.log("New Array: " + maxedWords);
+  console.log(maxedWords);
   console.log("Max Length: " + maxLength);
 }

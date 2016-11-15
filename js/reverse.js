@@ -1,3 +1,11 @@
+// Write a program that will take a hardcoded string, and console log the reversed version of it.
+
+// Requirements
+
+// You must use a for loop. No .reverse()
+// You may use the string below
+// var inputString = 'building';
+
 function reverseWord (word) {
   var split = word.split("");
   var reversedWord = "";
@@ -5,3 +13,4 @@ function reverseWord (word) {
   reversedWord += split[i];
   }
   return(reversedWord);
+}
