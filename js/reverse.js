@@ -9,7 +9,7 @@
 function reverseWord (word) {
   var split = word.split("");
   var reversedWord = "";
-  for (var i = split.length; i >= 0; i--) {
+  for (var i = split.length - 1; i >= 0; i--) {
   reversedWord += split[i];
   }
   return(reversedWord);

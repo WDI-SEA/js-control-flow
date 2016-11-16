@@ -6,7 +6,7 @@
 // The output of the program should read: "X degrees Fahrenheit is Y degrees Celsius"
 
 
-function cToF(temp) {
-  var tempC = Math.floor((temp - 32) / 1.8);
-  console.log(temp + " degrees Fahrenheit is " + tempC + " degrees Celsius");
-}
+
+function fToC(fahrenheit) {
+  var celcius = Math.floor((fahrenheit - 32) / 1.8);
+  console.log(fahrenheit + " degrees Fahrenheit is " + celcius + " degrees Celsius");
