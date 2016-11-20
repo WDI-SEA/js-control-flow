@@ -10,17 +10,19 @@
 // Your program should pluralize the word based on an integer (count)
 
 var theThing = 'badger';
-var count = '12';
+var count = 12;
 
 function pluralizer(thing, amount) {
 	switch(amount) {
-		case '0':
+		case 0:
 			console.log("no " + thing + "s");
 			break;
-		case '1':
+		case 1:
 			console.log("1 " + thing);
 			break;
 		default:
 			console.log(amount + ' ' + thing + "s");
 	}
 }
+
+pluralizer(theThing, count);

@@ -10,3 +10,5 @@
 function fToC(fahrenheit) {
   var celcius = Math.floor((fahrenheit - 32) / 1.8);
   console.log(fahrenheit + " degrees Fahrenheit is " + celcius + " degrees Celsius");
+}
+fToC(32);

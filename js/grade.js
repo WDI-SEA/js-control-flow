@@ -31,7 +31,8 @@ function finalGrade(grade) {
       letterGrade = "F";
       break;
     default: 
-    console.log("unknown grade");
+      console.log("unknown grade");
   }
   console.log(letterGrade);
 }
+finalGrade(myGrade);

@@ -9,14 +9,17 @@
 // be named whatever you like maxLength should be a positive number
 
 var wordify = ["there", "is", "no", "place", "like", "home"];
-var maxLength = 3;
 
-function filterLongWords(wordArry) {
+function filterLongWords(wordArry, max) {
   var maxedWords = [];
 
-  for (var i = 0; i < maxLength; i++) {
-    maxedWords.push(wordArry[i]);
+  for (var i = 0; i < wordArry.length; i++) { // iterate over array
+  	// check if iteratee (the word) has fewer than maxLength characters
+  	if (wordArry[i].length < max) {
+	    maxedWords.push(wordArry[i]);
+  	}
   }
   console.log(maxedWords);
-  console.log("Max Length: " + maxLength);
+  console.log("Max Length: " + max);
 }
+filterLongWords(wordify, 5);

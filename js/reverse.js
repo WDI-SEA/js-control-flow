@@ -9,8 +9,12 @@
 function reverseWord (word) {
   var split = word.split("");
   var reversedWord = "";
+  
   for (var i = split.length - 1; i >= 0; i--) {
-  reversedWord += split[i];
+  	reversedWord += split[i];
   }
-  return(reversedWord);
+  console.log(reversedWord);
+  return reversedWord;
 }
+
+reverseWord("therestoobad");
