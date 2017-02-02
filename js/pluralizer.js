@@ -1,5 +1,5 @@
-var thing = "cat";
-var count = 5;
+var thing = null;
+var count = null;
 
 
 if(count > 1){
