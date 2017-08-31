@@ -1,4 +1,4 @@
-var grade = 100
+var grade = 100;
 
 switch(true) {
 	case grade >= 90 && grade <= 100:
