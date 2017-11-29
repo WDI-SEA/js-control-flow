@@ -1,6 +1,6 @@
-#JS Control Flow
+# JS Control Flow
 
-##Getting Started
+## Getting Started
 * Fork and clone this repository
 * Run `npm install` to install dependencies
 * Use a separate file for each exercise. This will make it easier to keep track of solutions
@@ -11,7 +11,7 @@
 
 ---
 
-###grade.js
+### grade.js
 Write a program that will print the letter grade, given a variable with a test score. Display either "A", "B", "C", "D", or "F", for an score that is an integer between 0 and 100.
 
 **Requirements**
@@ -21,7 +21,7 @@ Write a program that will print the letter grade, given a variable with a test s
 
 ---
 
-###pluralizer.js
+### pluralizer.js
 Write a program that takes an input like...
 
 ```js
@@ -35,7 +35,7 @@ and output the pluralized form of the word, depending on what `count` is. For ex
 
 ---
 
-###tempConvert.js
+### tempConvert.js
 Write a program that converts a temperature from Fahrenheit to Celsius.
 
 **Requirements**
