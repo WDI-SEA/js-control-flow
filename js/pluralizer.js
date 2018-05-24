@@ -76,18 +76,10 @@ function pluralizeIfNecessary(animal, count){
 
 }
 
-animalArray.forEach(function(animal){
-    pluralizeIfNecessary(animal, 1);
-})
+// set up for loop to test output
 
-animalArray.forEach(function (animal) {
-    pluralizeIfNecessary(animal, 2);
-})
-
-animalArray.forEach(function (animal) {
-    pluralizeIfNecessary(animal, 0);
-})
-
-animalArray.forEach(function (animal) {
-    pluralizeIfNecessary(animal, -3);
-})
+for(var i = 0; i < testCounts.length; i++){
+    animalArray.forEach(function(animal) {
+        pluralizeIfNecessary(animal, testCounts[i]);
+    })
+}
