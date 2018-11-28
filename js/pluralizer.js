@@ -1,6 +1,6 @@
 var pet = "dog";
-var count = "2";
-if (count >= 2) {
+var count = "1";
+if (count >= 2 || count<=0) {
 console.log(count,pet + "s");
 } else {
 	console.log(count,pet);
