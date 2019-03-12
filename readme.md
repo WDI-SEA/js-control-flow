@@ -44,7 +44,7 @@ Write a program that converts a temperature from Fahrenheit to Celsius.
 
 ## Bonus
 
-Rewrite your first answer in `grade.js` using a switch statement! 
+Rewrite your first answer in `grade.js` using a [switch statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)! 
 
 ---
 
