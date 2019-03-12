@@ -42,6 +42,10 @@ Write a program that converts a temperature from Fahrenheit to Celsius.
 * Your program should take an integer (in Fahrenheit) and convert the temperature to Celsius.
 * The output of the program should read: "X degrees Fahrenheit is Y degrees Celsius"
 
+## Bonus
+
+Rewrite your first answer in `grade.js` using a switch statement! 
+
 ---
 
 ## Licensing
