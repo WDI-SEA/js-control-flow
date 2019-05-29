@@ -1,6 +1,6 @@
 var score = 99;
 
-function grade(score) {
+function Grade(score) {
     switch(true) {
         case (90 <= score && score <=100):
             console.log("Congratulations! You got an A!");
@@ -21,7 +21,7 @@ function grade(score) {
             console.log("Invalid Score");
     }
 }
-grade(score);
-grade(50);
-grade(101);
-grade(-1);
+Grade(score);
+Grade(50);
+Grade(101);
+Grade(-1);
