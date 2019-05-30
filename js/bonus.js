@@ -3,16 +3,21 @@
 
 //Your program should have a variable to store the letter grade (an integer between 0 and 100)
 
-var testScore = 40;
+var testScore = 77;
 
-if (testScore <= 100 && testScore >=90) {
-    console.log("You got an A!");
-} else if (testScore >= 80) {
-    console.log("You got a B!");
-} else if (testScore >= 70) {
+switch(true) {
+    case (testScore >=90 && testScore <= 100): 
+        console.log("You got an A!");
+    break;
+    case (testScore >=80):
+        console.log("You got a B!");
+    break;
+    case (testScore >=70):
     console.log("You got a C...");
-} else if (testScore >= 60) {
+    break;
+    case (testScore >=60): 
     console.log("You got a D :(");
-} else {
+    break;
+    default:
     console.log("You failed (((");
 }
