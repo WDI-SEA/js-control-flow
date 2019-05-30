@@ -16,3 +16,4 @@ if (count > 1) {
 
 } else {
     console.log(count + ' ' +thing);
+  }
