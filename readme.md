@@ -2,13 +2,9 @@
 
 ## Getting Started
 * Fork and clone this repository
-* Run `npm install` to install dependencies
 * Use a separate file for each exercise. This will make it easier to keep track of solutions
-  * It may also be beneficial to copy/paste any data structures provided
 * Write JavaScript code to obtain the data prompted by each question
 * Run each file by typing `node js/nameOfFile.js`
-* OPTIONAL: Run `npm run lint:js` to style check your code
-
 ---
 
 ### grade.js
@@ -59,7 +55,7 @@ Write a program that reads a variable with language code and prints the translat
 
 **Requirements**
 * You should have a variable for the language code (e.g. "es", "de", "fr", "en").
-* Your program should print the translation of "Hello World" nased on the language code in the variable.
+* Your program should print the translation of "Hello World" based on the language code in the variable.
 * It should support at least 3 languages
 * Make sure to test with the different languages you choose.
 * (Feel free to Google the translation if you aren't fluent.)
