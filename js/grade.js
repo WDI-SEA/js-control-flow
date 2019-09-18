@@ -19,5 +19,4 @@ switch(true) {
     default: 
         letterGrade = "F";
 }
-
-//Done
+console.log(letterGrade);

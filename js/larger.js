@@ -5,10 +5,9 @@ var number2 = 10;
 
 var comparison = function() {
     if (number1 > number2) {
-        return number1;
+        console.log(number1);
     } else if (number2 > number1) {
-        return number2;
+        console.log(number2);
     }
 }
-
-//Done
+comparison();

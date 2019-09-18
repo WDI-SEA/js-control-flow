@@ -3,17 +3,16 @@
 // F to C = (x - 32) * 5/9
 // F to K = || + 273.15
 
-var convertTo = "k";
+var convertTo = "c";
 var tempInF = 82;
 
 var converter = function() {
     if (convertTo == "k") {
         var tempInK = (tempInF - 32) * (5/9) + 273.15;
-        return tempInK;
+        console.log(tempInK);
     } else if (convertTo == "c") {
         var tempInC = (tempInF - 32) * (5/9);
-        return tempInC;
+        console.log(tempInC);
     }
 }
-
-//Done
+converter();

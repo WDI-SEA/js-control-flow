@@ -1,18 +1,17 @@
 // To take in one var that says 'en' or other language and will return Hello World in the given language
 //Possible entries: 'ge' 'vi' 'sp'
 
-var convertTo = "vi";
+var convertTo = "sp";
 
 var converter = function() {
     if (convertTo === "ge") {
-        return "Hallo Welt!";
+        console.log("Hallo Welt!");
     } else if (convertTo === "vi") {
-        return "Chào thế giới";
+        console.log("Chào thế giới");
     } else if (convertTo === "sp") {
-        return "Hola Mundo";
+        console.log("Hola Mundo");
     } else {
-        return "Hello World!"
+        console.log("Hello World!");
     }
 }
-
-//Done
+converter();
