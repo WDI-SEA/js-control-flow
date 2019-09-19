@@ -1,7 +1,7 @@
 var thing = 'cat';
 var count = 5;
 if (count >=2){
-    console.log(`You have ${count} ${thing.concat(`s`)}.`);
+    console.log(`You have ${count} ${thing}s.`);
 } else if (count === 1){
     console.log(`You have ${count} ${thing}.`);
 } else if (count === 0){

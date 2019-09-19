@@ -22,5 +22,4 @@ switch(true){
     break;
   default:
     console.log('Wow that sucks, do better next time >=(');
-    break;
 }
