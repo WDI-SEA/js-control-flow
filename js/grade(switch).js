@@ -25,4 +25,7 @@ switch (Grade) {
         console.log("your score is F");
         break;
 
+    default:
+        console.log("failed")
+        break;
 }
