@@ -1,5 +1,4 @@
-var grade = Math.random() * 100;
-switch (grade) {
+switch (grade = Math.random() * 100) {
     case grade > 90:
         console.log("Congratulations you got an A!");
         break;
