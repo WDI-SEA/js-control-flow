@@ -11,6 +11,6 @@ switch (grade = Math.random() * 100) {
     case grade > 60:
         console.log("You got a D.");
         break;
-    default:
+    case grade <= 59:
         console.log("You got an F.");
 }
