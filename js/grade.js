@@ -1,4 +1,4 @@
-var testScore = 87
+var testScore = 87 // Math.floor(Math.random() * 101) would include 0-100
 var letterGrade
 
 if (testScore >= 90) {
