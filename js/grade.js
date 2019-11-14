@@ -16,3 +16,4 @@ else if (grade > 60){
 else {
     console.log("You failed.")
 }
+
