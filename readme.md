@@ -7,12 +7,12 @@
 * Run each file by typing `node js/nameOfFile.js` if you have already installed `node`. Otherwise, just test your code in Repl.it, Codepen, or a similar sandbox environment!
 ---
 
-### grade.js
-Write a program that will print the letter grade, given a variable with a test score. Display either "A", "B", "C", "D", or "F", for an score that is an integer between 0 and 100.
+### age.js
+Write a program that will print the age category, given a variable with an age. Display either "infant", "toddler", "child", "preteen", "teen", or "young adult", for an age that is an integer between 0 and 20.
 
 **Requirements**
-* Your program should have a variable to store the letter grade (an integer between 0 and 100)
-* For the letter grades, you may use whatever grading scale you like
+* Your program should have a variable to store the age (an integer between 0 and 20)
+* For the age categories, you may use whatever aging scale you'd like
 
 ---
 
@@ -81,7 +81,7 @@ var arr4 = [0, 2, 4, 6];
 
 ## Bonus
 
-Rewrite your first answer in `grade.js` using a [switch statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)! 
+Rewrite your first answer in `age.js` using a [switch statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)! 
 
 ---
 
