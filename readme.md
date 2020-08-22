@@ -4,7 +4,7 @@
 * Fork and clone this repository
 * Use a separate file for each exercise. This will make it easier to keep track of solutions
 * Write JavaScript code to obtain the data prompted by each question
-* Run each file by typing `node js/nameOfFile.js`
+* Run each file by typing `node js/nameOfFile.js` if you have already installed `node`. Otherwise, just test your code in Repl.it, Codepen, or a similar sandbox environment!
 ---
 
 ### grade.js
