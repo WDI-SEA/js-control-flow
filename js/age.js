@@ -15,6 +15,7 @@ let age = 20;
     } else if (age >= 6 && age <= 10) {
         console.log("Child")
 
+    } else if (age >= 11 && age <= 15) {
         console.log("Preteen")
 
     } else if (age >= 16 && age <= 18) {
