@@ -21,6 +21,6 @@ if (arr1.length !== arr4.length) {
 }
 
 //if match is still true after the above, log the success message
-if (match === 0) {
+if (match === true) {
   console.log('These arrays are identical.')
 }
