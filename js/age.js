@@ -1,3 +1,10 @@
+//age.js
+//store age in a variable
+//check that variable against some age ranges
+//output what range the age falls within
+
+
+
 let age = 8
 
 if (age <= 20 && age >= 18){
