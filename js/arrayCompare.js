@@ -6,13 +6,13 @@ var arr4 = [0, 2, 4, 6];
 let match = true
 
 //check if the arrays are the same length
-if (arr1.length !== arr4.length) {
+if (arr1.length !== arr2.length) {
   console.log('These arrays are NOT equal.')
   match = false
 } else {
 //loop through the array items and compare. if a pair doesn't match, log the message and break the loop
-  for (let i = 0; i <= arr4.length; i++) {
-    if (arr1[i] !== arr4[i]) {
+  for (let i = 0; i <= arr1.length; i++) {
+    if (arr1[i] !== arr2[i]) {
       console.log('These arrays are NOT equal.')
       match = false
       break
