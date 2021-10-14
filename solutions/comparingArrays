@@ -1,0 +1,19 @@
+// I don't think this is technically the right solution because I
+// turned them into strings and compared the strings to each other rather
+// than the individual items in each array
+var arr1 = [1, 'a', 3, 'e', 5, 7, 9, 'i'];
+var arr2 = ['a', '1', 'e', 5, 7, 9, 'i'];
+
+
+var arrSort=(arr1.sort());
+var arrSort2=(arr2.sort());
+
+var one = (arrSort.join());
+var two = (arrSort2.join());
+
+if (one === two){
+  console.log('These arrays are a match')
+}
+else if (one !== two){
+  console.log('These arrays are not a match')
+}

@@ -1,0 +1,25 @@
+const age = 6
+
+switch(true){
+  case (0<=age && age<=2):
+  console.log("you is a baby wah wah wah");
+  break;
+  case (3<=age && age<=5):
+  console.log("you is a toddler goo goo");
+  break;
+  case (6<=age && age<=10):
+  console.log("you is a child");
+  break;
+  case (11<=age && age<=13):
+  console.log("you is a pre-teen");
+  break;
+  case (14<=age && age<=17):
+  console.log("you is a teenager");
+  break;
+  case (18<=age && age<=20):
+  console.log("you is a young adult");
+  break;
+ default:
+ console.log("get out of here old person!")
+ break;
+}
