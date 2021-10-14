@@ -15,7 +15,6 @@ let age = 20;
     } else if (age >= 6 && age <= 10) {
         console.log("Child")
 
-    } else if (age >= 11 && age <= 15) {
         console.log("Preteen")
 
     } else if (age >= 16 && age <= 18) {
@@ -29,7 +28,7 @@ let age = 20;
 
 let age2 = 20;
 
-switch(age2) {
+switch(true) { /* SWITCH STATEMENT AND CASE HAVE TO BE EQUIVALENT PRIMITIVES */
     case (age2 >= 0 && age2 <= 5):
         console.log("Toddler")
         break;
