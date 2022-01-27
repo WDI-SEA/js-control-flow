@@ -6,7 +6,7 @@ const arr4 = [0, 2, 4, 6];
 function compareArr(x,y){
   console.log(`Comparing ${x} and ${y} ....`)
   if(x.length === y.length){
-  for(i = 0; i < arr1.length;){
+  for(i = 0; i < x.length;){
     if(x[i] === y[i]){
       i++;
     }else{
