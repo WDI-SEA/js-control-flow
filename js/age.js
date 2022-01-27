@@ -15,10 +15,3 @@ if (ageCategory < 1) {
 } else {
   console.log("Unfortunately you're an adult...")
 }
-
-// infant 0
-// toddler 1-4
-// child 5-10
-// preteen 11-12
-// teen 13-18
-// young adult 19-20
