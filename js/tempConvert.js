@@ -1,6 +1,6 @@
-var fTemp = 40
+let fTemp = 40
 
-const cTemp = (Ftemp - 32) - 1.8
+const cTemp = (Ftemp - 32) / 1.8
 
 
 if (fTemp) {
