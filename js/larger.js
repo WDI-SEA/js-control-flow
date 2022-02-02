@@ -10,5 +10,5 @@ if (arr1 === arr2) {
 } else if (arr1 === arr4) {
   console.log("these don't match either")
 } else {
-  console.log("theres only one that works")
+  console.log("wasn't a match")
 }
