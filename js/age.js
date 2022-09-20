@@ -1,6 +1,6 @@
  var ages =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 
-let age = "3";
+let age = "21";
 switch(true) {
   case (1>age):
     console.log('Infant');
@@ -21,6 +21,6 @@ switch(true) {
     console.log('Young Adult');
     break;
   default:
-    console.log('Try again next time!');
+    console.log('Enter from 0-20 only');
     break;
 }
