@@ -14,5 +14,5 @@ else if(tempScale === "k"){
   console.log(tempFahrenheit + " degrees Fahrenheit is " + fahrToKel + " degrees Kelvin")
 }
 else{
-  console.log("Please chosse either k or c !")
+  console.log("Please chosse either k or c to convert the temp!")
 }
