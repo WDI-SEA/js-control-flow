@@ -17,7 +17,7 @@ if (age >= 0 && age < 1){
     console.log("The age category is infant")
 } else if (age >=1 && age < 3) {
     console.log("The age category is toddler")
-} else if (age >=3 && age <= 8) {
+} else if (age >=3 && age < 8) {
     console.log("The age category is child")
 } else if (age >=8 && age < 12) {
     console.log("The age category is preteen")
