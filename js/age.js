@@ -49,7 +49,7 @@ switch (true){
     case (age >=18 && age <= 20):
         console.log("The age category is young adult");
         break;
-    case !(age < 0 || age > 20):
+    case !(age < 0 && age > 20):
         console.log("Invalid age");
         break;
     }
