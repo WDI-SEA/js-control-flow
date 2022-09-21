@@ -1,23 +1,17 @@
-<!DOCTYPE html>
-<html>
+//age 
+let age = 13
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+if (age<=1) {
+    console.log("infant")    
+} else if (age>1 &&age<5) {
+    console.log("toddler")       
+} else if (age>1 &&age<9) {
+    console.log("child")      
+} else if (age>9 && age<=12) {
+    console.log("preteen")    
+} else if (age>12 && age<17) {
+    console.log("teen")    
+} else {
+    console.log("young adult")    
 
-<body>
-  Hello world
-  <script src="script.js"></script>
-
- <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
-</body>
-
-</html>
+}
