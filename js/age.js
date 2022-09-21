@@ -1,5 +1,5 @@
 let age_category = ["infant", "toddler", "child", "preteen", "teen", "young adult"]
-let age = 0
+let age = 20
 
 if (age >= 0 && age <= 1) {
   console.log("Infant")
@@ -16,6 +16,6 @@ else if (age > 10 && age <= 13) {
 else if (age > 13 && age <= 17) {
   console.log("Teen!")
 }
-else if (age > 17 && age <= 20) {
+  else {
   console.log("Adult!")
 }
