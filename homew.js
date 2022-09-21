@@ -26,3 +26,6 @@ if (age == 0 ) {
   }
   else 
   console.log(count, thing + 's' )
+
+  //ex3 
+  
