@@ -30,22 +30,27 @@ if (age >= 0 && age < 1){
 }
 
 //Using Switch
-//Not working
 switch (true){
-    case age >= 0 && age < 1:
-        console.log("The age category is infant")
-    case age >=1 && age < 3:
-        console.log("The age category is toddler")
-    case age >=3 && age <= 8:
-        console.log("The age category is child")
-    case age >=8 && age < 12:
-        console.log("The age category is preteen")
-    case age >=12 && age < 18:
-        console.log("The age category is teen")
-    case age >=18 && age <= 20:
-        console.log("The age category is young adult")
-    case age < 0 || age > 20:
-        console.log("Invalid age")
+    case (age >= 0 && age < 1):
+        console.log("The age category is infant");
+        break;
+    case (age >=1 && age < 3):
+        console.log("The age category is toddler");
+        break;
+    case (age >=3 && age < 8):
+        console.log("The age category is child");
+        break;
+    case (age >=8 && age < 12):
+        console.log("The age category is preteen");
+        break;
+    case (age >=12 && age < 18):
+        console.log("The age category is teen");
+        break;
+    case (age >=18 && age <= 20):
+        console.log("The age category is young adult");
+        break;
+    case !(age < 0 || age > 20):
+        console.log("Invalid age");
         break;
     }
 
