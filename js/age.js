@@ -9,7 +9,7 @@ Requirements
 */
 
 
-let age = 18.5;
+let age = prompt("How old are you?");
 
 
 //Using if
