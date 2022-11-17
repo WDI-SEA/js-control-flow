@@ -14,7 +14,7 @@ if (age <= 1) {
 } else {
   console.log ('too old')
 }
-
+// BONUS
 // let age = 13
 
 // switch(true) {
