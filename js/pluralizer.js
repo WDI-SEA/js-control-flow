@@ -10,4 +10,4 @@ function pluralizer(thing, count){
     }
 }
 
-console.log(plural);
+console.log(count + " " plural);
